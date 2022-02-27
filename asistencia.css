@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	box-sizing: 0;
+    margin: 0; 
+	font-family: 'VALORANT', sans-serif;
+	cursor: crosshair;
+	/* cursor: url(1111.png), auto; */
+
+}
+
+.form{
+    margin: auto;
+    height: 650px;
+}
+
+form{
+	background-image: url(img/fondo.png);
+	margin: auto;
+	margin-top: 5%;
+	color: white;
+	text-shadow: -1px 1px rgba(241, 91, 108);
+	font-family: system-ui;
+	font-weight: bold;
+	width:500px;
+	text-align: center;
+	position: fixed;
+	transform: translateX(-45%) translateY(-50%);
+	top: 45%;
+	left: 50%;
+	border: 2px solid;
+	border-radius: 20px;
+	border-color: rgba(241, 91, 108);
+}
+
+form:hover{
+	text-shadow: -2px -1px rgba(241, 91, 108);
+	color: white;
+	border-color: white;
+    box-shadow: 1px 2px -1px 1px rgba(241, 91, 108);
+}	
+
+.formu{
+	font-family: system-ui;
+	font-size: 1rem;
+}
+
+input{
+	background-color: rgba(255, 255, 255, 0.3);
+	border: none;
+    border-radius: 20px;
+	border-bottom: 2px solid rgba(241, 91, 108);
+	cursor: pointer;
+	color: rgba(203, 251, 255);
+}
+
+.boton{
+	color: white;
+    background: rgb(0, 0, 0,);
+	background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(241,91,108,1) 0%, rgba(135,56,66,1) 100%);
+	padding: 1%;
+	margin-bottom: 1%;
+}
+
+.boton:hover{
+    background: rgb(0,0,0);
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(135,56,66,1) 0%, rgba(241,91,108,1) 100%);
+}
+
+textarea{
+	background-color: rgba(255, 255, 255, 0.3);
+	border: none;
+	border-bottom: 2px solid rgba(241, 91, 108);
+	color: white;
+	resize: none;
+    font-family: sans-serif;
+    border-radius: 20px;
+	
+}

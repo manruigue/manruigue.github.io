@@ -1,0 +1,57 @@
+*{
+	padding: 0;
+	box-sizing: 0;
+    margin: 0; 
+	font-family: 'VALORANT', sans-serif;
+	cursor: crosshair;
+	/* cursor: url(1111.png), auto; */
+
+}
+
+
+.section {
+    width: 1620px;
+    margin: auto;
+}
+
+.arsenal{
+    background-image: url(img/fondo.png);
+    display: block;
+    border: 2px solid white;
+	border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+   
+}
+
+.arsenal:hover{
+    box-shadow: 3px 4px rgba(241, 91, 108);
+}
+
+
+
+.arsenal p {
+    text-align: center;
+    color: white;
+	font-size: 25px;
+	padding: 10px 0;
+    text-shadow: 0.5px 1px rgba(241, 91, 108);
+}
+
+.arsenal p:hover{
+    text-shadow: 1.5px 2.5px rgba(241, 91, 108);
+}
+
+.mapaimg{
+    display: block;
+    margin: auto;
+	width: 338px;
+	height: 95px;
+    border-radius: 20px;
+}
+
+.armas {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}

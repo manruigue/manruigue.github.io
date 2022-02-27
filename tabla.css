@@ -1,0 +1,154 @@
+*{
+	padding: 0;
+	box-sizing: 0;
+    margin: 0; 
+	font-family: 'VALORANT', sans-serif;
+	cursor: crosshair;
+	/* cursor: url(1111.png), auto; */
+
+}
+
+
+.section {
+    width: 1620px;
+    margin: auto;
+}
+
+table{
+	margin: auto;
+	margin-top: 10px;
+	color: white;
+	background-color: red;
+	border: 5px inset rgba(241, 91, 108);
+	height: 600px;
+	background-image: url(img/asd.png);
+	 /* background-image: url(img/fondo.png);  */
+	 border-radius: 20px;
+}
+
+th{
+	width: 95px;
+	height: 75px;
+	margin: 0 20px;
+	padding: 20px 40px;
+	font-size: 25px;
+	border-bottom: 1px outset rgba(241, 91, 108);
+	border-radius: 20px;
+}
+
+th:hover{
+	
+	text-shadow: 1px 2px rgba(241, 91, 108);
+}
+
+.radiante{
+	margin: auto;
+	max-width: 75px;
+	max-height: 75px;
+}
+
+.mid{
+	width: 600px;
+	
+}
+
+
+
+.menu_horizontal1 li{
+	display: inline-block;
+	text-align: center;
+	list-style: none;
+	font-size: 25px;
+	padding:  10px 30px;
+	
+}
+
+
+
+.menu_horizontal1 li {
+ 
+ border-radius: 20px;
+
+}
+
+
+.menu_horizontal1 li a {
+	 display:block;
+	 color: white;
+	 text-decoration:none;
+	 font-weight:400;
+	 font-size:25px;
+	 padding:10px;
+	 font-family: 'VALORANT', sans-serif;
+	 letter-spacing:1px;
+	 margin-left: 200px;
+ 
+}
+
+.menu_horizontal1 li a:hover {
+	text-shadow: 1px 2px rgba(241, 91, 108);
+}
+
+.menu_horizontal1 li{
+	 position:relative;
+	 float:left;
+	 margin-left: 15px;
+	 padding:0;
+}
+
+.menu_vertical1{
+	 display:none;
+	 position:absolute;
+	 top:100%;
+	 left:0;
+	 padding:0;	
+	 margin-left: 200px;
+}
+
+
+
+.menu_vertical1 li {
+	 float:none;
+	 width:250px;
+	 border: solid 1px white;
+	 background-image: url(img/2.png); 
+	 margin-left: 100px;
+}
+
+
+
+.menu_vertical1 li a {
+	 line-height:120%;
+	 padding:10px 15px;
+	 margin-left: 0;
+	 
+}
+
+.menu_vertical1 li a:hover {
+	text-shadow: 1px 2px rgba(241, 91, 108);
+}
+
+
+
+
+
+.menu_horizontal1 li:hover > .menu_vertical1{
+	display:block;
+}
+
+.asd{
+	margin-top: -50px;
+	text-align: center;
+	font-size: 45px;
+	text-shadow: 1px 2px rgba(241, 91, 108);
+}
+
+td a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 1px 2px rgba(241, 91, 108);
+	text-decoration: underline 1px rgba(241, 91, 108);	
+	margin-left: 210px;
+	font-size: 25px;
+}
+
